@@ -147,3 +147,19 @@ sudo nginx -t
 
 sudo systemctl restart nginx
 
+Steps to run the Application are:-
+
+1.activate the virtual environment
+
+source myprojectenv/bin/activate
+
+2.Change the directory to myprojectdir
+
+3.run the application 
+
+~/myprojectdir/manage.py runserver 0.0.0.0:8000
+
+4.In web browser, open 127.0.0.1:8000/superapp
+
+
+
