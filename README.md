@@ -10,6 +10,8 @@ Application server: GuniCorn
 
 Web server: Nginx
 
+Database: PostgreSQL
+
 Steps involved in the project are:-
 
 1.Install the Packages from the Ubuntu Repositories
@@ -63,8 +65,6 @@ We can do this by entering our project directory and using gunicorn to load the 
 cd ~/myprojectdir
 
 gunicorn --bind 0.0.0.0:8000 myproject.wsgi
-
-deactivate
 
 8.Creating systemd Socket and Service Files for Gunicorn
 
