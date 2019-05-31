@@ -19,10 +19,10 @@ Steps to run the Application are:-
 
 2. run as sh script1.sh
 
-2.If it ask for permission then run chmod +x script1.sh
- and then run the command sh script.sh
+3.If it ask for permission then run chmod +x script1.sh
+  and then run the command sh script.sh
  
-2.In the browser,open 127.0.0.1:8000/superapp
+4.In the browser,open 127.0.0.1:8000/superapp
 
 
 
